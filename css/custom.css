@@ -99,15 +99,15 @@ body {
     
 }
 #clientes a.link-cliente img {
-    /* filter: grayscale(100%); */
+    filter: grayscale(100%);
     max-height: 100px;
     width: 50%;
     
 }
-/* #clientes a.link-cliente:hover img {
+#clientes a.link-cliente:hover img {
     filter: none;
     opacity: 1;
-} */
+}
 #clientes .cliente-text {
     display: flex;
     flex-direction: column;
