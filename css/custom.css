@@ -15,21 +15,16 @@ body {
     transition: background ease-out .2s;
     
 }
-#menu {
 
+
+
+#header.active {
     position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-
-/* #header.active {
-    position: absolute;
     background: var(--white);
     box-shadow: 0 0 30px 0 var(--transparent);
     z-index: 999;
     top: 0%;
-} */
+}
 #header .navbar-collapse {
     width: auto;
     
